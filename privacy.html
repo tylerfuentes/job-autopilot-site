@@ -7,9 +7,10 @@
 <p>Job Autopilot is a personal tool used only by its owner, on the owner's own computer.</p>
 <h2>Google data it accesses</h2>
 <ul>
-<li><b>Google Drive and Sheets</b>: only the folder, tracker spreadsheet and cover-letter documents the tool itself creates (<code>drive.file</code> scope).</li>
-<li><b>Gmail (read)</b>: recent messages are searched for application verification codes and for replies from companies that were applied to.</li>
-<li><b>Gmail (send)</b>: one summary email a day, sent from the owner's account to the owner and the job candidate.</li>
+<li><b>Google Drive</b> (<code>drive.file</code>): only the folder and cover-letter documents the tool itself creates.</li>
+<li><b>Google Sheets</b> (<code>spreadsheets</code>): this permission allows reading and editing every spreadsheet in the account. The tool only opens the tracker spreadsheet it created.</li>
+<li><b>Gmail (read)</b> (<code>gmail.readonly</code>): this permission allows reading all mail. The tool only searches recent messages sent by job-application systems (Greenhouse, Lever, Ashby) for verification codes.</li>
+<li><b>Gmail (send)</b> (<code>gmail.send</code>): one summary email a day, sent from the owner's account to the owner and the job candidate.</li>
 </ul>
 <h2>Storage and sharing</h2>
 <p>Data stays in the owner's Google account and on the owner's computer. Nothing is sold, shared with third
